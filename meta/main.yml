@@ -20,9 +20,9 @@ galaxy_info:
   - openssl
   - certificates
 dependencies:
-- role: GROG.package
-  package_list:
-  - name: openssl
+- role: SimpliField.packages
+  packages:
+  - openssl
 - role: SimpliField.path
   path: "/etc/ssl/{{ ssl_common_name }}"
   owner: "{{ ssl_path_owner }}"
