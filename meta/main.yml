@@ -12,9 +12,7 @@ galaxy_info:
     - vivid
     - wily
     - xenial
-  - name: EL
-    versions:
-    - 7
+    
   galaxy_tags:
   - ssl
   - openssl
